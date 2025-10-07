@@ -153,8 +153,8 @@ with st.sidebar:
     st.title("🔍 Movie Search")
     st.write("Select a movie to get personalized recommendations")
     
-    # Search functionality removed (replaced with empty string to preserve filter logic)
-    search_term = ""
+    # Search functionality
+    search_term = st.text_input("🔎 Search movies:", placeholder="Type to search...")
     
     # Filter movies based on search
     if search_term:
