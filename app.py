@@ -153,8 +153,8 @@ with st.sidebar:
     st.title("🔍 Movie Search")
     st.write("Select a movie to get personalized recommendations")
     
-    # Search functionality
-    search_term = st.text_input("🔎 Search movies:", placeholder="Type to search...")
+    # Search functionality removed (replaced with empty string to preserve filter logic)
+    search_term = ""
     
     # Filter movies based on search
     if search_term:
@@ -168,14 +168,7 @@ with st.sidebar:
     # Movie selection
     movie_name = st.selectbox("🎥 Choose a movie:", filtered_movies, key="movie_select")
     
-    # Display movie stats
-    st.markdown("### 📊 Dataset Info")
-    col1, col2 = st.columns(2)
-    with col1:
-        st.markdown(f'<div class="metric-card"><h3>{len(df)}</h3><p>Total Movies</p></div>', unsafe_allow_html=True)
-    with col2:
-        st.markdown(f'<div class="metric-card"><h3>{len(filtered_movies)}</h3><p>Filtered Results</p></div>', unsafe_allow_html=True)
-    
+    # ... sidebar content continues (dataset info removed)
     st.markdown('</div>', unsafe_allow_html=True)
 
 # Main content area
