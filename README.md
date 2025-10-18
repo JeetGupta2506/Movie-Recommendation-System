@@ -22,7 +22,8 @@ Built with Streamlit, Python, and Machine Learning, this interactive web app hel
 
 ## 📸 ScreenShots
 
-![Landing page](<screenshots/Landing.png>)
+<img width="1916" height="847" alt="image" src="https://github.com/user-attachments/assets/82f22a2a-1de5-45ee-abb1-222587244a3b" />
+
 ![Report](<screenshots/report.png>)
 ![Chatbot](<screenshots/chatbot.jpg>)
 
